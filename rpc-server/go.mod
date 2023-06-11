@@ -3,6 +3,11 @@ module github.com/TikTokTechImmersion/assignment_demo_2023/rpc-server
 go 1.18
 
 require (
+	"go.mongodb.org/mongo-driver/mongo"
+	"go.mongodb.org/mongo-driver/mongo/options"
+)
+
+require (
 	github.com/apache/thrift v0.13.0
 	github.com/cloudwego/kitex v0.5.2
 	github.com/kitex-contrib/registry-etcd v0.1.0
