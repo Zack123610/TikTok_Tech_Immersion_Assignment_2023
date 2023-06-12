@@ -2,10 +2,10 @@ module github.com/TikTokTechImmersion/assignment_demo_2023/rpc-server
 
 go 1.18
 
-require (
+<!-- require (
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
-)
+) -->
 
 require (
 	github.com/apache/thrift v0.13.0
